@@ -1,0 +1,110 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 30px;
+}
+
+.main-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 90vh;
+}
+
+.form-section {
+  padding-top: 30px;
+}
+
+.form-header {
+  font-size: 18px;
+  margin: 15px;
+}
+
+#csvInput {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#csvInput::file-selector-button {
+  border: none;
+  background-color: yellowgreen;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#csvInput::file-selector-button:hover {
+  background-color: rgb(122, 160, 46);
+}
+
+.parse-button {
+  font-size: 18px;
+  background-color: rgba(30, 196, 30, 0.842);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px;
+  transition: all, .2s ease-in-out;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.parse-button:hover {
+  background-color: rgb(21, 124, 21);
+  transform: scale(1.05);
+}
+
+.output-box {
+  display: flex;
+  justify-content: space-around;
+  max-width: 700px;
+  padding: 0 10px;
+  border: 1px solid black;
+  margin: 10px auto;
+  box-shadow: 0 0 2px black;
+  position: relative;
+}
+
+.row-number {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  margin: 0;
+ 
+}
+
+.emp-one-id {
+  padding: 20px;
+  height: max-content;
+}
+
+.emp-two-id {
+  padding: 20px;
+  height: max-content;
+}
+
+.project-id {
+  padding: 20px;
+  height: max-content;
+}
+
+.worked-together {
+  padding: 20px;
+  height: max-content;
+}
+
+* h5 {
+  margin: 0;
+}
+
+* h3 {
+  margin: 0;
+}
